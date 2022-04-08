@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Times</title>
+</head>
+<body>
+<form>
+<h4>Nhập số 1:</h4><input type="number" name="number1" id="number1">
+<br>
+<h4>Nhập số 2</h4><input type="number" name="number2" id="number2">
+<br>
+<input type="submit" onclick="times()" value="times">
+</form>
+</body>
+<script>
+    function times(){
+        let a=parseInt(document.getElementById("number1").value)
+        let b=parseInt(document.getElementById('number2').value)
+        alert(a*b)
+    }
+</script>
+</html>
